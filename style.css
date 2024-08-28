@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header {
+    background-color: #a9252b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #a9252b;
+    text-align: center;
+}
+
+.login-section, .litigation-info {
+    margin: 20px 0;
+}
+
+.login-section {
+    width: 50%;
+    float: left;
+}
+
+.litigation-info {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.litigation-info img {
+    max-width: 400px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #a9252b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #851c23;
+}
+
+/* Footer */
+footer {
+    background-color: #a9252b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
